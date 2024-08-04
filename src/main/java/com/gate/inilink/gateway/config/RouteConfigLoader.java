@@ -27,17 +27,5 @@ public class RouteConfigLoader {
         return routeRepository.findAll();
     }
 
-	/*
-    private static final String ROUTES_FILE = "routes.json";
-
-    public List<Map<String, Object>> loadRoutes() throws IOException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream(ROUTES_FILE)) {
-            if (inputStream == null) {
-                throw new IOException("File not found: " + ROUTES_FILE);
-            }
-            return objectMapper.readValue(inputStream, new TypeReference<List<Map<String, Object>>>() {});
-        }
-    }
-    */
+	 
 }
