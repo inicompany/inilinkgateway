@@ -97,9 +97,15 @@ public class DynamicRouteHandler implements ApplicationListener<ContextRefreshed
     private ApplicationContext applicationContext;
 
     private List<RouteConfigDTO> routes = new ArrayList<>();
-
+    
     @Override
     public void onApplicationEvent(ContextRefreshedEvent event) {
+        log.info("ContextRefreshedEvent triggered.");
+        loadRoutes();
+    }
+   
+    
+    public void loadRoutes() {
         try {
             log.info("Attempting to load routes from MongoDB...");
 

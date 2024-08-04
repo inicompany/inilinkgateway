@@ -3,7 +3,6 @@ package com.gate.inilink.gateway.controller;
 import com.gate.inilink.gateway.dto.RouteHandlerDTO;
 import com.gate.inilink.gateway.handler.DynamicRouteHandler;
 import com.gate.inilink.gateway.handler.HandlerChain;
-import com.gate.inilink.gateway.handler.request.RequestHandler;
 import com.gate.inilink.gateway.router.GatewayRouter;
 
 import org.springframework.beans.factory.annotation.Autowired;

@@ -2,11 +2,7 @@ package com.gate.inilink.gateway.config;
 
 import com.gate.inilink.gateway.handler.Handler;
 import com.gate.inilink.gateway.handler.HandlerChain;
-import com.gate.inilink.gateway.handler.auth.AuthCommonHandler;
-import com.gate.inilink.gateway.handler.error.ErrorHandler;
 import com.gate.inilink.gateway.handler.DefaultHandlerChain;
-import com.gate.inilink.gateway.handler.request.RequestHandler;
-import com.gate.inilink.gateway.handler.response.ResponseHandler;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
